@@ -27,7 +27,7 @@ This is an initial, deliberately restricted starter build:
 9. Set the service's public domain and copy it into `PUBLIC_BASE_URL`.
 10. Deploy. The health check is `https://YOUR-DOMAIN/health`.
 
-## Get your Telegram numeric user ID\n\nOpen [@userinfobot](https://t.me/userinfobot) in Telegram and send `/start`. Copy the numeric ID it returns. Do not use your `@username`.\n\n## Railway variables
+## Get your Telegram numeric user ID\n\nOpen [@userinfobot](https://t.me/userinfobot) in Telegram and send `/start`. Copy the numeric ID it returns. Do not use your `@username`.\n\n## Railway deployment\n\nThe repository includes a Dockerfile and `railway.toml`; Railway can build the Dockerfile automatically. Set the health check to `/health`. The process listens on the Railway-provided `PORT`.\n\n## Railway variables
 
 - `TELEGRAM_BOT_TOKEN` — token from BotFather
 - `TELEGRAM_OWNER_ID` — your numeric Telegram user ID (not username)
@@ -45,7 +45,7 @@ This is an initial, deliberately restricted starter build:
 3. Open the FatSecret authorization link and approve access.
 4. Return to Telegram and send `/today`.
 
-## Current command set
+## Telegram owner ID\n\nGet your numeric Telegram user ID from [@userinfobot](https://t.me/userinfobot).\n\n## Current command set
 
 - `/start`
 - `/help`
